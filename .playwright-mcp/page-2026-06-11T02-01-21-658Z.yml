@@ -1,0 +1,266 @@
+- generic [active] [ref=e1]:
+  - navigation "Main navigation" [ref=e2]:
+    - generic [ref=e3]:
+      - link "QuantED shield logo QUANT ED" [ref=e4] [cursor=pointer]:
+        - /url: "#hero"
+        - img "QuantED shield logo" [ref=e5]
+        - generic [ref=e6]: QUANT ED
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: "#hero"
+        - listitem [ref=e10]:
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: "#about"
+        - listitem [ref=e12]:
+          - link "Sessions" [ref=e13] [cursor=pointer]:
+            - /url: "#sessions"
+        - listitem [ref=e14]:
+          - link "Hackathon" [ref=e15] [cursor=pointer]:
+            - /url: "#hackathon"
+        - listitem [ref=e16]:
+          - link "Team" [ref=e17] [cursor=pointer]:
+            - /url: "#team"
+      - link "Join Us" [ref=e19] [cursor=pointer]:
+        - /url: "#join"
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - img
+      - generic [ref=e23]:
+        - img "QuantED logo" [ref=e24]
+        - heading "QUANT ED" [level=1] [ref=e25]
+        - paragraph [ref=e26]: CODE. FIN. ALGORITHMS.
+        - paragraph [ref=e27]: University of Florida's Quantitative Finance & Coding Education Club
+        - generic [ref=e28]:
+          - link "Explore Sessions →" [ref=e29] [cursor=pointer]:
+            - /url: "#sessions"
+          - link "Join the Club" [ref=e30] [cursor=pointer]:
+            - /url: "#join"
+        - generic [ref=e32]: SCROLL
+    - generic [ref=e35]:
+      - generic [ref=e36]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+      - generic [ref=e37]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - paragraph [ref=e42]: OUR MISSION
+        - heading "WHAT IS QUANT ED?" [level=2] [ref=e43]:
+          - text: WHAT IS
+          - text: QUANT ED?
+        - paragraph [ref=e44]: QuantED is the University of Florida's hub for quantitative finance and computational thinking. We bridge the gap between financial theory and practical implementation, preparing students for careers in quant trading, fintech, and data science.
+        - paragraph [ref=e45]: Every session focuses on one of our three pillars — Code, Finance, or Algorithms — building a complete toolkit for the modern quant.
+        - img "CODE · FIN · ALGORITHMS circular badge" [ref=e46]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - img "Sigma icon" [ref=e50]
+          - generic [ref=e51]:
+            - generic [ref=e52]: FOUNDED
+            - generic [ref=e53]: EST. 2026
+        - generic [ref=e54]:
+          - img "Chart growth icon" [ref=e55]
+          - generic [ref=e56]:
+            - generic [ref=e57]: SESSIONS PER SEMESTER
+            - generic [ref=e58]: 0+
+        - generic [ref=e59]:
+          - img "Laptop code icon" [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]: TOPICS COVERED
+            - generic [ref=e63]: 0 PILLARS
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - img "Laptop icon" [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e69]: CODE
+            - generic [ref=e70]: Python, pandas, NumPy, backtesting
+        - generic [ref=e71]:
+          - img "Finance chart icon" [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e74]: FINANCE
+            - generic [ref=e75]: Derivatives, yield curves, risk models
+        - generic [ref=e76]:
+          - img "Document icon" [ref=e77]
+          - generic [ref=e78]:
+            - generic [ref=e79]: ALGORITHMS
+            - generic [ref=e80]: Monte Carlo, stat arb, optimization
+    - generic [ref=e82]:
+      - generic [ref=e83]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+      - generic [ref=e84]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - paragraph [ref=e88]: SCHEDULE
+        - heading "UPCOMING SESSIONS" [level=2] [ref=e89]
+        - paragraph [ref=e90]: "Every meeting covers one of our three pillars: Code, Finance, or Algorithms."
+        - tablist "Filter sessions by pillar" [ref=e91]:
+          - tab "ALL" [selected] [ref=e92] [cursor=pointer]
+          - tab "CODE" [ref=e93] [cursor=pointer]
+          - tab "FINANCE" [ref=e94] [cursor=pointer]
+          - tab "ALGORITHMS" [ref=e95] [cursor=pointer]
+      - generic [ref=e96]:
+        - article [ref=e97]:
+          - img "Code pillar" [ref=e98]
+          - generic [ref=e99]: SESSION 01
+          - generic [ref=e100]: 2026-09-05 · SAT 10:00 AM
+          - heading "Python for Quant Finance" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Intro to pandas, NumPy, and pulling financial data with yfinance. Build your first price series from scratch.
+          - button "Add to Calendar" [ref=e103] [cursor=pointer]
+        - article [ref=e104]:
+          - img "Finance pillar" [ref=e105]
+          - generic [ref=e106]: SESSION 02
+          - generic [ref=e107]: 2026-09-19 · SAT 10:00 AM
+          - heading "Options Pricing & Black-Scholes" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Derivatives fundamentals, the BSM model, Greeks, and implied volatility surfaces.
+          - button "Add to Calendar" [ref=e110] [cursor=pointer]
+        - article [ref=e111]:
+          - img "Algorithms pillar" [ref=e112]
+          - generic [ref=e113]: SESSION 03
+          - generic [ref=e114]: 2026-09-26 · SAT 10:00 AM
+          - heading "Monte Carlo Simulations" [level=3] [ref=e115]
+          - paragraph [ref=e116]: Variance reduction techniques, convergence analysis, and pricing path-dependent options.
+          - button "Add to Calendar" [ref=e117] [cursor=pointer]
+        - article [ref=e118]:
+          - img "Code pillar" [ref=e119]
+          - generic [ref=e120]: SESSION 04
+          - generic [ref=e121]: 2026-10-10 · SAT 10:00 AM
+          - heading "Backtesting Frameworks" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Build a systematic strategy tester in Python. Handle survivorship bias, transaction costs, and Sharpe ratios.
+          - button "Add to Calendar" [ref=e124] [cursor=pointer]
+        - article [ref=e125]:
+          - img "Finance pillar" [ref=e126]
+          - generic [ref=e127]: SESSION 05
+          - generic [ref=e128]: 2026-10-24 · SAT 10:00 AM
+          - heading "Fixed Income & Yield Curves" [level=3] [ref=e129]
+          - paragraph [ref=e130]: Bond math, duration, convexity, and building a zero-coupon yield curve from market data.
+          - button "Add to Calendar" [ref=e131] [cursor=pointer]
+        - article [ref=e132]:
+          - img "Algorithms pillar" [ref=e133]
+          - generic [ref=e134]: SESSION 06
+          - generic [ref=e135]: 2026-11-07 · SAT 10:00 AM
+          - heading "Pairs Trading & Statistical Arbitrage" [level=3] [ref=e136]
+          - paragraph [ref=e137]: Cointegration testing, mean reversion strategies, and entry/exit signal design for equity pairs.
+          - button "Add to Calendar" [ref=e138] [cursor=pointer]
+      - img "LEARN. BUILD. QUANTIFY. badge" [ref=e139]
+    - generic [ref=e141]:
+      - generic [ref=e142]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+      - generic [ref=e143]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: ◆ ANNUAL EVENT
+          - heading "GATOR QUANT HACKS" [level=2] [ref=e149]:
+            - text: GATOR QUANT
+            - text: HACKS
+          - generic [ref=e150]: 📅 OCT 3, 2026
+          - paragraph [ref=e151]: 114d 9h 58m away
+          - paragraph [ref=e152]: 500+ Students · University of Florida · Open to All Majors
+          - generic [ref=e153]:
+            - generic [ref=e154]: 🏆 $X,XXX in Prizes
+            - generic [ref=e155]: ⏳ 24 Hours
+            - generic [ref=e156]: 📊 Quant Challenges
+          - generic [ref=e157]:
+            - link "REGISTER NOW →" [ref=e158] [cursor=pointer]:
+              - /url: "#join"
+            - button "Learn More" [ref=e159] [cursor=pointer]
+        - img "QuantED logo" [ref=e161]
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - img "Sigma algorithm icon" [ref=e164]
+          - generic [ref=e165]: ALGO TRACK
+          - paragraph [ref=e166]: Build the best systematic trading strategy. Scored on Sharpe ratio, drawdown, and originality.
+        - generic [ref=e167]:
+          - img "ML laptop icon" [ref=e168]
+          - generic [ref=e169]: ML TRACK
+          - paragraph [ref=e170]: Apply machine learning to financial data — forecasting, classification, or anomaly detection.
+        - generic [ref=e171]:
+          - img "Research document icon" [ref=e172]
+          - generic [ref=e173]: RESEARCH TRACK
+          - paragraph [ref=e174]: Write a rigorous quant research paper. Scored on methodology, originality, and reproducibility.
+    - generic [ref=e176]:
+      - generic [ref=e177]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+      - generic [ref=e178]: ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ··· 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 ···
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - paragraph [ref=e182]: LEADERSHIP
+        - heading "THE TEAM" [level=2] [ref=e183]
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: AR
+          - generic [ref=e187]: Alex Robbins
+          - generic [ref=e188]: PRESIDENT
+          - generic [ref=e189]:
+            - generic [ref=e190]: Python
+            - generic [ref=e191]: Quant
+            - generic [ref=e192]: ML
+        - generic [ref=e193]:
+          - generic [ref=e194]: JL
+          - generic [ref=e195]: Jamie Liu
+          - generic [ref=e196]: VP OF EDUCATION
+          - generic [ref=e197]:
+            - generic [ref=e198]: Derivatives
+            - generic [ref=e199]: Risk
+            - generic [ref=e200]: C++
+        - generic [ref=e201]:
+          - generic [ref=e202]: MS
+          - generic [ref=e203]: Maya Singh
+          - generic [ref=e204]: VP OF TECH
+          - generic [ref=e205]:
+            - generic [ref=e206]: Algorithms
+            - generic [ref=e207]: Stats
+            - generic [ref=e208]: R
+        - generic [ref=e209]:
+          - generic [ref=e210]: CB
+          - generic [ref=e211]: Carlos Bernal
+          - generic [ref=e212]: VP OF EVENTS
+          - generic [ref=e213]:
+            - generic [ref=e214]: Fixed Income
+            - generic [ref=e215]: Excel
+            - generic [ref=e216]: VBA
+    - generic [ref=e219]:
+      - img "QuantED QUANT ED shield badge" [ref=e220]
+      - heading "READY TO QUANTIFY?" [level=2] [ref=e221]
+      - paragraph [ref=e222]: Join QuantED and level up across code, finance, and algorithms. Open to all UF students — no prior experience required.
+      - generic [ref=e223]:
+        - textbox "Your UF email address" [ref=e224]:
+          - /placeholder: your@ufl.edu
+        - button "JOIN THE LIST" [ref=e225] [cursor=pointer]
+      - generic [ref=e226]:
+        - link "Discord" [ref=e227] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e228]
+          - text: DISCORD
+        - link "Instagram" [ref=e230] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e231]
+          - text: INSTAGRAM
+        - link "LinkedIn" [ref=e233] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e234]
+          - text: LINKEDIN
+        - link "GitHub" [ref=e236] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e237]
+          - text: GITHUB
+      - img "CODE · FIN · ALGORITHMS circular badge" [ref=e239]
+  - contentinfo [ref=e240]:
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - img "QuantED logo" [ref=e245]
+          - generic [ref=e246]: QUANT ED · Est. 2026
+        - paragraph [ref=e247]: UF's Quant Finance & Coding Club
+      - navigation "Footer navigation" [ref=e248]:
+        - link "Home" [ref=e249] [cursor=pointer]:
+          - /url: "#hero"
+        - link "About" [ref=e250] [cursor=pointer]:
+          - /url: "#about"
+        - link "Sessions" [ref=e251] [cursor=pointer]:
+          - /url: "#sessions"
+        - link "Hackathon" [ref=e252] [cursor=pointer]:
+          - /url: "#hackathon"
+        - link "Team" [ref=e253] [cursor=pointer]:
+          - /url: "#team"
+        - link "Join Us" [ref=e254] [cursor=pointer]:
+          - /url: "#join"
+      - paragraph [ref=e256]:
+        - text: University of Florida
+        - text: Gainesville, FL 32611
+        - text: © 2026 QuantED
+    - paragraph [ref=e259]: 0101 –– CODE –– 101 –– FIN –– 0110 –– ALGORITHMS –– 1001 –– Σ –– 0101 –– PYTHON –– 1010 –– QUANT –– 0011
